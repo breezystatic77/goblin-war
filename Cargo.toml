@@ -1,0 +1,17 @@
+[package]
+name = "goblin_war"
+version = "0.1.0"
+authors = ["sc"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+specs = "0.16.1"
+petgraph = { version = "0.5.1", features = [ "serde-1" ] }
+serde = { version = "1.0.114", features = ["derive"] }
+serde_json = "1.0.56"
+ptree = { version = "0.2.1", features = [ "petgraph" ] }
+enum-map = "0.6.2"
+enum-map-derive = "0.4.3"
+colored = "1.9"
